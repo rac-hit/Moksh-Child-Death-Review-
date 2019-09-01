@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="">
+  <div class="container">
+  
+    <h1><b>Register child death</b></h1>
+    <p>Details of child after birth</p>
+    <hr>
+      <label for="email"><b>1. Name of the respodent</b></label>
+    <input type="text" name="text" required><br>
+     <label for="psw"><b>2.Relationship of the respodent with the deceased</b></label><br>
+    <input type="checkbox"  name="psw" required>a.Brother/Sister<br>
+    <input type="checkbox"  name="psw" required>b.Mother/Father<br>
+    <input type="checkbox"  name="psw" required>c.Neighbour/No relation<br>
+    <input type="checkbox"  name="psw" required>d. Grandfather/Grandmother<br>
+    <input type="checkbox"  name="psw" required>e.Other relatives<br>
+ 
+    
+     <label for="psw"><b>3. Did the respodent live with the deceased during the events that led to death?</b></label><br>
+    <input type="checkbox"  name="psw" required>a.Yes<br>
+    <input type="checkbox"  name="psw" required>b.No<br>
+
+    <label for="psw"><b>4.Religion of the head of the household</b></label><br>
+    <input type="checkbox"  name="psw" required>a.Hindu<br>
+    <input type="checkbox"  name="psw" required>b.Muslim<br>
+    <input type="checkbox"  name="psw" required>c.Chritian<br>
+    <input type="checkbox"  name="psw" required>d.Sikh<br>
+    <input type="checkbox"  name="psw" required>e.Buddhist<br>
+    <input type="checkbox"  name="psw" required>f.Jain<br>
+    <input type="checkbox"  name="psw" required>g.No religion<br>
+    <input type="checkbox"  name="psw" required>h.Others <br>
+
+    
+    <label for="psw"><b>5.Category</b></label><br>
+    <input type="checkbox"  name="psw" required>a.SC/ST<br>
+    <input type="checkbox"  name="psw" required>b.OBC<br>
+    <input type="checkbox"  name="psw" required>c.General<br>
+
+    <p style="font-size:20px"><b> Details of deceased</b></p>
+
+    <label for="psw"><b>6.Deceased's Sex:</b></label><br>
+    <input type="checkbox"  name="psw" required>a.Male<br>
+    <input type="checkbox"  name="psw" required>b.Female<br>
+
+    <label for="psw"><b>7.Age in completed days</b></label><br>
+    <input type="checkbox"  name="psw" required>a.Less than 1 day
+    <input type="checkbox"  name="psw" required>1-28 Days<br>
+
+
+    <label for="psw"><b>8.Date of birth</b></label>
+    <input type="text" placeholder="dd/mm/yyyy" name="psw" required>
+
+    <label for="psw"><b>9.Date of death</b></label>
+    <input type="text" placeholder="dd/mm/yyyy" name="psw" required>
+
+    <label for="psw"><b>10A.House address of the deceased</b></label>
+    <input type="text" name="psw" required>
+
+    <label for="psw"><b>10B.PIN</b></label>
+    <input type="password"  name="psw" required>
+
+    <label for="psw"><b>11.Place of death</b></label><br>
+    <input type="checkbox"  name="psw" required>a.Home<br>
+    <input type="checkbox"  name="psw" required>b.On way to health facility<br>
+    <input type="checkbox"  name="psw" required>c.Sub center<br>
+    <input type="checkbox"  name="psw" required>d.PHC/CHC/Rural Hospital<br>
+    <input type="checkbox"  name="psw" required>e.District Hospital<br>
+    <input type="checkbox"  name="psw" required>f.Medical College<br>
+    <input type="checkbox"  name="psw" required>g. Private Hospital<br>
+    <input type="checkbox"  name="psw" required>h.Other,Specify<br>
+    <input type="checkbox"  name="psw" required>i.DNK<br>
+
+    <p style="font-size:20px"><b> Details of deceased</b></p>
+
+    <label for="psw"><b>12A.Did the child met with an accident</b></label><br>
+    <input type="checkbox"  name="psw" required>a.Yes<br>
+    <input type="checkbox"  name="psw" required>b.No<b> (if no,go to Q13A </b><br>
+
+
+    <label for="psw"><b>12B.If yes,what kind of injury or accident?</b></label><br>
+    <input type="checkbox"  name="psw" required>a.Road traffic injury<br>
+    <input type="checkbox"  name="psw" required>b.Falls<br>
+    <input type="checkbox"  name="psw" required>c.Fall of objectsr<br>
+    <input type="checkbox"  name="psw" required>d.Burns<br>
+    <input type="checkbox"  name="psw" required>e.Drowningl<br>
+    <input type="checkbox"  name="psw" required>f.Poisoning<br>
+    <input type="checkbox"  name="psw" required>g.Bite/Sting<br>
+    <input type="checkbox"  name="psw" required>h.Natural disaster<br>
+    <input type="checkbox"  name="psw" required>i.Homicide/Assault<br>
+     <input type="checkbox" name="psw" required>j.Others<br>   
+
+
+    <label for="psw"><b>12C.Do you think the child died from an injury or an accident?</b>(If yes,go to section C)</label><br>
+    <input type="checkbox"  name="psw" required>a.Yes<br>
+    <input type="checkbox"  name="psw" required>b.No<br>
+    <input type="checkbox"  name="psw" required>c.DNK<br>
+    <label for="email"><b>14A. When was the child first breastfed?</b></label><br>
+    <input type="checkbox" name="email" required>a. Immediately/within one hour of birth<br>
+    <input type="checkbox" name="email" required>b. Same day child was born<br>
+    <input type="checkbox" name="email" required>c. Second day or later <br>
+    <input type="checkbox" name="email" required>d. never breastfed<br>
+    <input type="checkbox" name="email" required>e. DNK<br>
+
+    <label for="psw"><b>14B. Did the child receive any feed other than breast milk during the first 6 months of life?</b></label><br>
+    <input type="checkbox" name="psw" required>a.Yes<br>
+    <input type="checkbox" name="email" required>b.No<br>
+    <input type="checkbox" name="email" required>c.DNK<br>
+
+    <label for="email"><b>14C.During the illness that led to death, was the child breastfeeding?(if child less than 18 months)</b></label><br>
+    <input type="checkbox" name="email" required>a.Yes<br>
+    <input type="checkbox" name="email" required>b.No<br>
+     <input type="checkbox" name="email" required>c.DNK<br>
+
+    <p style="font-size:20px"><b> Details of Sickness at time of death</b></p>
+
+
+    <label for="psw-repeat"><b>15A. Did the child had fever?</b></label><br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>15B. If yes,how many days did the fever last?</b></label><br>
+    <input type="text" name="psw-repeat" required>Days<br>
+
+    
+    <label for="email"><b>15C. Was the fever accompaine dby chills/rigors?</b></label><br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>16.Did the child have convulsions or fits?</b></label><br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>17.Was the child unconscious during the illness that led to death?</b></label><br>
+     <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+      <input type="checkbox" name="psw-repeat" required>b.No<br>
+      <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>18.Did the child develop stiffness of the whole body?</b></label><br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>19.Did the child have a stiff neck?</b></label><br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+    
+    
+    <label for="email"><b>19.Did the child have diarrhoea?</b></label><br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>20.Was there blood in the stools?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>21A.Did the child have a cough?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>21B.If yes,was there blood?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>22A.Did the child have breathing difficulties?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>22B.If yes, for how many days?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    
+    <label for="email"><b>23A.During the illness,did child have abdominal pain?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>23B.Did the child have abdominal distention?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>24A.Did the child vomit?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>24B.If yes,for how many days?</b></label<br>
+    <input type="text" name="psw-repeat" required>Days<br>
+
+    <label for="email"><b>25.Did the eye skin colour change to yellow?</b></label<br> 
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>26A.Did the child have rash all over the body?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>26B.Did the child have red eyes?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>26C. Was this measles?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>27. During the weeks of preceding death,did the child become very thin?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+ 
+    <label for="email"><b>28.During the weeks preceding death,did the child have any swelling of hands,feet or abdomen?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>29.During the weeks preceding death,did the child suffer from lack of blood or appear pale?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+    
+    <label for="email"><b>30.Compared to other children of the same age,was child growing normally?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+    
+
+    <label for="email"><b>31A.Did the child have multiple illnesses?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Yes<br>
+    <input type="checkbox" name="psw-repeat" required>b.No<br>
+    <input type="checkbox" name="psw-repeat" required>c.DNK<br>
+
+    <label for="email"><b>31B.If yes,what were the symptoms associated with these illnesses?</b></label<br>
+    <input type="checkbox" name="psw-repeat" required>a.Cough<br>
+    <input type="checkbox" name="psw-repeat" required>b.Diarrhoea<br>
+    <input type="checkbox" name="psw-repeat" required>c.Ear Discharge<br>
+    <input type="checkbox" name="psw-repeat" required>d.Fever<br>
+    <input type="checkbox" name="psw-repeat" required>e.Rashes<br>
+    <input type="checkbox" name="psw-repeat" required>f.Other<br>
+    <hr>
+    <form action="/action_page.php">
+  <a href="formm1.html">
+  <input type="submit" value="Submit">
+</form> 
+</form>
